@@ -1,6 +1,6 @@
-﻿namespace Assignment5_DollarComputers
+﻿namespace Assignment5_DollarComputers.Views
 {
-    partial class Form1
+    partial class AboutForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AboutForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "AboutForm";
+            this.Text = "About Form";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
