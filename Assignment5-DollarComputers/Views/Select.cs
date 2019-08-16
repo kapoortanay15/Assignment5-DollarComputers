@@ -16,5 +16,30 @@ namespace Assignment5_DollarComputers.Views
         {
             InitializeComponent();
         }
+
+        private void Select_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StartForm startForm = new StartForm();
+            startForm.Show();
+            this.Hide();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            
+            ProductInfo productInfoForm = new ProductInfo();
+            productInfoForm.Show();
+            this.Hide();
+        }
     }
 }

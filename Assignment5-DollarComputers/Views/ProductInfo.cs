@@ -16,5 +16,32 @@ namespace Assignment5_DollarComputers.Views
         {
             InitializeComponent();
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProductIDLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            OrderForm orderForm = new OrderForm();
+            orderForm.Show();
+            this.Hide();
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
