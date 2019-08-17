@@ -63,6 +63,7 @@
             this.OpenOrderButton.TabIndex = 0;
             this.OpenOrderButton.Text = "Open a Saved Order";
             this.OpenOrderButton.UseVisualStyleBackColor = false;
+            this.OpenOrderButton.Click += new System.EventHandler(this.OpenOrderButton_Click);
             // 
             // ExitButton
             // 
@@ -100,6 +101,7 @@
             this.Controls.Add(this.OpenOrderButton);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.NewOrderButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";

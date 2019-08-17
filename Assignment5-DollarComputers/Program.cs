@@ -7,10 +7,14 @@ using Assignment5_DollarComputers.Views;
 
 namespace Assignment5_DollarComputers
 {
-    static class Program
+    public static class Program
     {
         public static SplashForm splashForm;
         public static StartForm startForm;
+        public static Select selectForm;
+        public static ProductInfo productInfo;
+        public static OrderForm orderForm;
+        public static AboutForm aboutForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -22,6 +26,11 @@ namespace Assignment5_DollarComputers
 
             splashForm = new SplashForm();
             startForm = new StartForm();
+            selectForm = new Select();
+            productInfo = new ProductInfo();
+            orderForm = new OrderForm();
+            aboutForm = new AboutForm();
+
             Application.Run(splashForm);
         }
     }

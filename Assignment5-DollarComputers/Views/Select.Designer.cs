@@ -45,6 +45,7 @@
             this.dataGridView1.DataSource = this.productBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(12, 66);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(776, 311);
             this.dataGridView1.TabIndex = 0;
@@ -71,7 +72,7 @@
             this.NextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NextButton.Location = new System.Drawing.Point(633, 400);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(121, 42);
+            this.NextButton.Size = new System.Drawing.Size(139, 44);
             this.NextButton.TabIndex = 2;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -86,7 +87,7 @@
             this.CancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelButton.Location = new System.Drawing.Point(469, 400);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(121, 42);
+            this.CancelButton.Size = new System.Drawing.Size(139, 44);
             this.CancelButton.TabIndex = 2;
             this.CancelButton.Text = "Cancel";
             this.CancelButton.UseVisualStyleBackColor = true;
@@ -106,6 +107,7 @@
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.HeaderLabel);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Select";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select";
